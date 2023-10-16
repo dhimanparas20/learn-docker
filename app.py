@@ -7,4 +7,4 @@ def hello():
     return "Hello World!"
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000,debug=True) # Always keep debug=False for production purpose
+    app.run(host='0.0.0.0', port=5000,debug=True,threaded=True) # Always keep debug=False for production purpose

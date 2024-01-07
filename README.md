@@ -21,7 +21,7 @@ The main goal of this GitHub repository is to guide you through the process of p
 ### 4. Install Nginx, Python3, and Docker
 ```bash
 sudo apt update
-sudo apt install nginx python3 python3-pip 
+sudo apt install nginx python3 python3-pip certbot python3-certbot-nginx
 ```
 
 ### 5. Nginx Configuration
